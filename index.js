@@ -36,7 +36,14 @@ class SortedList {
     }
   }
 
-  sum() {}
+  sum() {
+    let sum = 0;
+    for(let i=0; i<this.items.length; i++){
+     sum+=this.items[i];
+     
+    }
+    return sum;
+  }
 
   avg() {}
 }
